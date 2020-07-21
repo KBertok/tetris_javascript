@@ -1,0 +1,35 @@
+<html>
+    
+    <head>
+        <title> Tutorial Tetris JS HTML5</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    
+    <body>
+        <div class="title">Tetris JS HTML5 </div>
+        <div class="body">
+           <div class="positions right">
+               <canvas id='tetris' width="200" height="400"></canvas>
+           </div>
+           <div class="positions">
+               <div class="caja_lateral">
+                   SIGUIENTE
+                   <canvas id="nextPiece" width="100" height="100"></canvas>
+               </div>
+               <div class="caja_lateral">
+                    PUNTOS
+                    <div id="score"></div>
+               </div>
+               <div class="caja_lateral">
+                    LINEAS
+                    <div id="lines"></div>
+               </div>
+               <div class="caja_lateral">
+                    NIVEL
+                    <div id="level"></div>
+               </div>
+            </div>
+        </div>
+        <script src="js/tetris.js"></script>
+    </body>
+</html>
